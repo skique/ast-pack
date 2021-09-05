@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true, // 生成类型声明
+    "sourceMap": true, // 生成源码映射文件
+    "outDir": "./lib", // 输出路径
+    "rootDir": "./src",
+    "strict": true, // 开启严格模式
+    "esModuleInterop": true, // 在类型检测层面兼容 CommonJS 和 ES 模块的引用关系
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["node", "node_modules/@types", "./typings"]
+  }
+}
